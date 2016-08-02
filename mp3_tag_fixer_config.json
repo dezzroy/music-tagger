@@ -1,0 +1,17 @@
+{
+    "root_directories": [
+    ],
+    "output_directory_success": "~/",
+    "output_directory_not_success": "~/",
+    "non_mp3_file_directory": "/tmp/",
+
+    "acoustid_web_service": {        
+        "api_key": "1TfWqzCn",
+        "result_threshold": 0.8
+    },
+
+    "musicbrainz_web_service": {
+        "user_agent_app": "MP3 Tag Fixer",
+        "user_agent_version": "2.0"
+    }
+}
