@@ -8,8 +8,8 @@ tag values for artist, album, track name, and maybe track number set correctly.
 Dependencies
 ------------
 
-Recent release of Debian-based Linux distribution
-    Tested on Ubuntu 16.04 desktop x86-64
+Recent release of Debian-based Linux distribution. Tested on Ubuntu 16.04 
+desktop x86-64
 
 Python >= 2.7, but < 3.0
 
@@ -38,6 +38,8 @@ All processed album directories will be moved to either the directory specified
 as `output_directory_success` if its files are found to be tagged satisfactorily,
 or the directory specified as `output_directory_not_success` if at least one
 file is not tagged satisfactorily.
+Note: using `~` to indicate the current user's home directory seems to not
+work, so don't use it.
 
 **Assumptions**
 
